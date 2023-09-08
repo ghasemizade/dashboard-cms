@@ -11,7 +11,7 @@ export default function Header() {
       "flex justify-between items-center",
       "w-full",
       "py-2",
-      "text-2xl font-bold text-[#444]",
+      "font-bold text-[#444]",
       "bg-slate-100",
       "border-b hover:shadow"
     )}>
@@ -19,7 +19,8 @@ export default function Header() {
         "flex items-center",
         "mx-5",
         "text-[#444]",
-        "select-none"
+        "select-none",
+        "md:text-2xl text-lg"
       )}>
         DASHBOARD
         <SiPayloadcms />
@@ -35,32 +36,34 @@ export default function Header() {
             <IoNotificationsOutline className={clsx(
               "mr-1",
               "cursor-pointer",
-              "hover:text-black"
-            )}
-              size={25}/>
+              "hover:text-black",
+              "md:text-2xl text-lg"
+            )}/>
             <TbWorld className={clsx(
               "mr-1",
               "cursor-pointer",
-              "hover:text-black"
-            )}
-              size={25}/>
+              "hover:text-black",
+              "md:text-2xl text-lg"
+            )}/>
             <IoSettingsOutline className={clsx(
               "mr-1",
               "cursor-pointer",
-              "hover:text-black"
-            )}
-              size={25}/>
+              "hover:text-black",
+              "md:text-2xl text-lg"
+            )}/>
           </div>
           <img 
             className={clsx(
               "rounded-full hover:border",
               "cursor-pointer",
               "select-none",
+              "md:w-12 md:h-12",
+              "w-10 h-10"
               )}
               draggable={false}
               src={Avatar}
-              width={40}
-              height={40} 
+              // width={40}
+              // height={40} 
               alt="avatar" />
         </div>
     </header>
