@@ -2,6 +2,7 @@ import clsx from 'clsx'
 import React from 'react'
 import { IoNotificationsOutline, IoSettingsOutline } from 'react-icons/io5'
 import { TbWorld } from 'react-icons/tb'
+import { SiPayloadcms } from 'react-icons/si'
 import Avatar from '../assets/avatar-2023.jpg'
 
 export default function Header() {
@@ -15,10 +16,13 @@ export default function Header() {
       "border-b hover:shadow"
     )}>
       <div className={clsx(
+        "flex items-center",
         "mx-5",
-        "text-[#444]"
+        "text-[#444]",
+        "select-none"
       )}>
         DASHBOARD
+        <SiPayloadcms />
       </div>
       <div className={clsx(
         "flex items-center",
@@ -50,8 +54,10 @@ export default function Header() {
           <img 
             className={clsx(
               "rounded-full hover:border",
-              "cursor-pointer"
+              "cursor-pointer",
+              "select-none",
               )}
+              draggable={false}
               src={Avatar}
               width={40}
               height={40} 
