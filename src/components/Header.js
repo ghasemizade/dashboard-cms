@@ -30,15 +30,33 @@ export default function Header() {
         "mx-5"
       )}>
           <div className={clsx(
-            "flex",
+            "flex justify-center items-center",
             "mr-1"
           )}>
-            <IoNotificationsOutline className={clsx(
-              "mr-1",
+            <div className={clsx(
+              "w-8 md:w-12 h-8 md:h-12",
+              "rounded-full",
+              "flex justify-center items-center",
               "cursor-pointer",
-              "hover:text-black",
-              "md:text-2xl text-lg"
-            )}/>
+              "relative"
+            )}>
+              <IoNotificationsOutline className={clsx(
+                "mr-1",
+                "cursor-pointer",
+                "hover:text-black",
+                "md:text-2xl text-lg"
+              )}/>
+                <div className={clsx(
+                  "h-[14px] md:h-[18px]",
+                  "min-w-[14px] md:min-w-[18px]",
+                  "bg-red-600",
+                  "rounded-full",
+                  "absolute top-1 left-3 md:left-5",
+                  "text-white text-[10px] md:text-[12px]",
+                  "flex justify-center items-center",
+                  "px-[2px] md:px-[5px]"
+                )}>2</div>
+            </div>
             <TbWorld className={clsx(
               "mr-1",
               "cursor-pointer",
@@ -62,8 +80,6 @@ export default function Header() {
               )}
               draggable={false}
               src={Avatar}
-              // width={40}
-              // height={40} 
               alt="avatar" />
         </div>
     </header>
