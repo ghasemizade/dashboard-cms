@@ -13,7 +13,8 @@ export default function Header() {
       "py-2",
       "font-bold text-[#444]",
       "bg-slate-100",
-      "border-b hover:shadow"
+      "border-b hover:shadow",
+      "fixed"
     )}>
       <div className={clsx(
         "flex items-center",
