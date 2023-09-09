@@ -8,7 +8,8 @@ import { AiOutlineUserAdd, AiOutlineShop} from 'react-icons/ai'
 import { TbArrowsExchange2, TbMessages } from 'react-icons/tb'
 import { HiOutlineDocumentReport } from 'react-icons/hi'
 import { FiMail } from 'react-icons/fi'
-import { MdOutlineFeedback } from 'react-icons/md'
+import { MdOutlineFeedback, MdOutlineReport } from 'react-icons/md'
+import { PiBagSimpleBold } from "react-icons/pi";
 import SidebarItems from './SidebarItems';
 import SidebarSec from './SidebarSec';
 
@@ -21,7 +22,7 @@ export default function Sidebar() {
         "min-h-screen w-1/5",
         "border-r border-slate-300",
     )}>
-        <div className={clsx("pt-10")}>
+        <div className={clsx("pt-14")}>
             <SidebarSec title={"Dashboard"}>
                 <SidebarItems title={'Home'} icon={<LuLayoutDashboard/>}/>
                 <SidebarItems title={'Analytics'} icon={<FaChartLine/>}/>
@@ -41,8 +42,9 @@ export default function Sidebar() {
             <SidebarItems title={'Messages'} icon={<TbMessages />}/>
         </SidebarSec>
         <SidebarSec title={"Staff"}>
-            <SidebarItems title={'Mail'} />
-        
+            <SidebarItems title={'Manage'} icon={<PiBagSimpleBold />}/>
+            <SidebarItems title={'Analytics'} icon={<FaChartLine />}/>
+            <SidebarItems title={'Reports'} icon={<MdOutlineReport />} />
         </SidebarSec>
         
     </div>
