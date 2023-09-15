@@ -19,7 +19,7 @@ export default function Sidebar() {
   return (
     <div className={clsx(
         "bg-slate-100 invisible md:visible",
-        "min-h-screen w-1/5",
+        "w-1/5 absolute left-0 top-0",
         "border-r border-slate-300",
     )}>
         <div className={clsx("pt-14")}>
