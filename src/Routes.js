@@ -1,11 +1,9 @@
-import Home from './components/Home';
-
-
+import Home from "./pages/Home";
 
 let router = [
     { 
       path:"/",
-      component: { Home }
+      component: <Home />
     },
   ]
 
