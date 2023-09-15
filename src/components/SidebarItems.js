@@ -1,9 +1,10 @@
 import React from 'react'
 import clsx from 'clsx'
+import { Link } from 'react-router-dom'
 
-export default function SidebarItems({title, icon}) {
+export default function SidebarItems({title, icon, route}) {
   return (
-    <div className={clsx(
+    <Link to={route} className={clsx(
         "hover:bg-slate-200",
         "px-3 py-1",
         "rounded",
@@ -16,6 +17,6 @@ export default function SidebarItems({title, icon}) {
             {icon}
         </div>
         {title}
-    </div>
+    </Link>
   )
 }
