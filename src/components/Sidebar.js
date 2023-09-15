@@ -24,27 +24,27 @@ export default function Sidebar() {
     )}>
         <div className={clsx("pt-14")}>
             <SidebarSec title={"Dashboard"}>
-                <SidebarItems title={'Home'} icon={<LuLayoutDashboard/>}/>
-                <SidebarItems title={'Analytics'} icon={<FaChartLine/>}/>
-                <SidebarItems title={'Sales'} icon={<FcSalesPerformance/>}/>
+                <SidebarItems route={'/'} title={'Home'} icon={<LuLayoutDashboard/>}/>
+                <SidebarItems route={'/analytics'} title={'Analytics'} icon={<FaChartLine/>}/>
+                <SidebarItems route={'/sales'} title={'Sales'} icon={<FcSalesPerformance/>}/>
             </SidebarSec>
         </div>
         <SidebarSec title={"Quick Menu"}>
-            <SidebarItems title={'Users'} icon={<FiUsers/>}/>
-            <SidebarItems title={'New Users'} icon={<AiOutlineUserAdd/>}/>
-            <SidebarItems title={'Products'} icon={<AiOutlineShop/>}/>
-            <SidebarItems title={'Transactions'} icon={<TbArrowsExchange2/>}/>
-            <SidebarItems title={'Reports'} icon={<HiOutlineDocumentReport/>}/>
+            <SidebarItems route={'/newusers'} title={'New Users'} icon={<AiOutlineUserAdd/>}/>
+            <SidebarItems route={'/users'} title={'Users'} icon={<FiUsers/>}/>
+            <SidebarItems route={'/products'} title={'Products'} icon={<AiOutlineShop/>}/>
+            <SidebarItems route={undefined} title={'Transactions'} icon={<TbArrowsExchange2/>}/>
+            <SidebarItems route={undefined} title={'Reports'} icon={<HiOutlineDocumentReport/>}/>
         </SidebarSec>
         <SidebarSec title={"Notification"}>
-            <SidebarItems title={'Mail'} icon={<FiMail />}/>
-            <SidebarItems title={'Feedback'} icon={<MdOutlineFeedback />}/>
-            <SidebarItems title={'Messages'} icon={<TbMessages />}/>
+            <SidebarItems route={undefined} title={'Mail'} icon={<FiMail />}/>
+            <SidebarItems route={undefined} title={'Feedback'} icon={<MdOutlineFeedback />}/>
+            <SidebarItems route={undefined} title={'Messages'} icon={<TbMessages />}/>
         </SidebarSec>
         <SidebarSec title={"Staff"}>
-            <SidebarItems title={'Manage'} icon={<PiBagSimpleBold />}/>
-            <SidebarItems title={'Analytics'} icon={<FaChartLine />}/>
-            <SidebarItems title={'Reports'} icon={<MdOutlineReport />} />
+            <SidebarItems route={undefined} title={'Manage'} icon={<PiBagSimpleBold />}/>
+            <SidebarItems route={undefined} title={'Analytics'} icon={<FaChartLine />}/>
+            <SidebarItems route={undefined} title={'Reports'} icon={<MdOutlineReport />} />
         </SidebarSec>
         
     </div>
