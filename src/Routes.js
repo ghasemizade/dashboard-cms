@@ -6,7 +6,7 @@ import Newusers from "./pages/Newusers";
 import Products from "./pages/Products";
 
 
-let router = [
+let routes = [
     { 
       path:"/",
       elements: <Home />
@@ -33,4 +33,4 @@ let router = [
     },
   ]
 
-  export default router
+  export default routes
