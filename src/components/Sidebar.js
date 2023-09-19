@@ -19,10 +19,10 @@ export default function Sidebar() {
   return (
     <div className={clsx(
         "bg-slate-100 invisible md:visible",
-        "w-1/5 absolute left-0 top-0",
         "border-r border-slate-300",
+        "absolute top-0 bottom-0 pt-14"
     )}>
-        <div className={clsx("pt-14")}>
+        <div >
             <SidebarSec title={"Dashboard"}>
                 <SidebarItems route={'/'} title={'Home'} icon={<LuLayoutDashboard/>}/>
                 <SidebarItems route={'/analytics'} title={'Analytics'} icon={<FaChartLine/>}/>
