@@ -14,7 +14,6 @@ function App() {
       <Header />
       <div className={clsx(
         "flex",
-        // "pt-14"
       )}>
         <Sidebar />
         {router}
