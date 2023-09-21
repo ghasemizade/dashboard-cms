@@ -9,28 +9,28 @@ import Products from "./pages/Products";
 let routes = [
     { 
       path:"/",
-      elements: <Home />
+      element: <Home />
     },
     { 
       path:"/analytics",
-      elements: <Analaytics />
+      element: <Analaytics />
     },
     { 
       path:"/sales",
-      elements: <Sales />
+      element: <Sales />
     },
     { 
       path:"/users",
-      elements: <Users />
+      element: <Users />
     },
     { 
       path:"/newusers",
-      elements: <Newusers />
+      element: <Newusers />
     },
     { 
       path:"/products",
-      elements: <Products />
+      element: <Products />
     },
   ]
 
-  export default routes
+export default routes
