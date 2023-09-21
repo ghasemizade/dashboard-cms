@@ -18,9 +18,8 @@ import SidebarSec from './SidebarSec';
 export default function Sidebar() {
   return (
     <div className={clsx(
-        // "bg-slate-100 invisible md:visible",
-        // "border-r border-slate-300",
-        // "absolute top-0 bottom-0 pt-14"
+        "bg-slate-100 invisible md:visible",
+        "border-r border-slate-300",
     )}>
         <div >
             <SidebarSec title={"Dashboard"}>
