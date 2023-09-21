@@ -4,7 +4,6 @@ import React from 'react'
 
 export default function Sales() {
   return (
-      <div className={clsx(
-      )}>Sales</div>
+      <div >Sales</div>
   )
 }
