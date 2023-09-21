@@ -11,8 +11,13 @@ function App() {
 
   return (
     <>
-      <Header/>
-      {mainRouter}
+      <Header />
+      <div className={clsx(
+        "flex"
+      )}>
+        <Sidebar />
+        {mainRouter}
+      </div>
     </>
   );
 }
