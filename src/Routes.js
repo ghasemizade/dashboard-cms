@@ -8,27 +8,27 @@ import Products from "./pages/Products";
 
 let routes = [
     { 
-      path:"/",
+      path:"dashboard-cms/",
       element: <Home />
     },
     { 
-      path:"/analytics",
+      path:"dashboard-cms/analytics",
       element: <Analaytics />
     },
     { 
-      path:"/sales",
+      path:"dashboard-cms/sales",
       element: <Sales />
     },
     { 
-      path:"/users",
+      path:"dashboard-cms/users",
       element: <Users />
     },
     { 
-      path:"/newusers",
+      path:"dashboard-cms/newusers",
       element: <Newusers />
     },
     { 
-      path:"/products",
+      path:"dashboard-cms/products",
       element: <Products />
     },
   ]
