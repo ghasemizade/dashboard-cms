@@ -23,15 +23,15 @@ export default function Sidebar() {
     )}>
         <div >
             <SidebarSec title={"Dashboard"}>
-                <SidebarItems route={'/'} title={'Home'} icon={<LuLayoutDashboard/>}/>
-                <SidebarItems route={'/analytics'} title={'Analytics'} icon={<FaChartLine/>}/>
-                <SidebarItems route={'/sales'} title={'Sales'} icon={<FcSalesPerformance/>}/>
+                <SidebarItems route={'dashboard-cms/'} title={'Home'} icon={<LuLayoutDashboard/>}/>
+                <SidebarItems route={'dashboard-cms/analytics'} title={'Analytics'} icon={<FaChartLine/>}/>
+                <SidebarItems route={'dashboard-cms/sales'} title={'Sales'} icon={<FcSalesPerformance/>}/>
             </SidebarSec>
         </div>
         <SidebarSec title={"Quick Menu"}>
-            <SidebarItems route={'/newusers'} title={'New Users'} icon={<AiOutlineUserAdd/>}/>
-            <SidebarItems route={'/users'} title={'Users'} icon={<FiUsers/>}/>
-            <SidebarItems route={'/products'} title={'Products'} icon={<AiOutlineShop/>}/>
+            <SidebarItems route={'dashboard-cms/newusers'} title={'New Users'} icon={<AiOutlineUserAdd/>}/>
+            <SidebarItems route={'dashboard-cms/users'} title={'Users'} icon={<FiUsers/>}/>
+            <SidebarItems route={'dashboard-cms/products'} title={'Products'} icon={<AiOutlineShop/>}/>
             <SidebarItems route={undefined} title={'Transactions'} icon={<TbArrowsExchange2/>}/>
             <SidebarItems route={undefined} title={'Reports'} icon={<HiOutlineDocumentReport/>}/>
         </SidebarSec>
