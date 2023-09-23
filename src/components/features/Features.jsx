@@ -8,7 +8,7 @@ export default function Features(){
         <div className={clsx(
             "md:flex md:justify-evenly md:flex-row flex flex-col",
             "w-full",
-            "mt-10"
+            "mt-10",
         )}>
             <FeaturesBox 
                 title={"Revanue"} 
