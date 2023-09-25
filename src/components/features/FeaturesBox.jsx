@@ -11,7 +11,7 @@ export default function FeaturesBox({title, price, indicator, indicatorIcon, des
         )}>
            <div className={clsx(
             "mx-8 mb-8 h-full",
-            "flex flex-col items-start justify-evenly"
+            "flex flex-col items-start justify-evenly",
            )}>
             <h2 className={clsx(
                     "text-slate-700"
