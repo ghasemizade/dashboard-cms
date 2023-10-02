@@ -10,7 +10,7 @@ export default function Charts() {
           "bg-slate-50",
           "my-5 mx-8",
           "py-5",
-          "shadow hover:shadow-sm",
+          "shadow-md hover:shadow-sm",
           "rounded"
         )}>
           <LineChart width={1000} height={350} data={data}
