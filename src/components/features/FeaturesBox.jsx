@@ -8,9 +8,11 @@ export default function FeaturesBox({title, price, indicator, indicatorIcon, des
             "w-80 h-40",
             "rounded",
             "shadow hover:shadow-md",
+            "bg-slate-50",
+            "mx-5"
         )}>
            <div className={clsx(
-            "mx-8 mb-8 h-full",
+            "mx-8 h-full",
             "flex flex-col items-start justify-evenly",
            )}>
             <h2 className={clsx(
