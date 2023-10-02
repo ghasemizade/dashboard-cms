@@ -20,6 +20,8 @@ export default function Sidebar() {
     <div className={clsx(
         "bg-slate-100 invisible md:visible",
         "border-r border-slate-300",
+        "py-5 min-h-screen",
+        "w-1/5"
     )}>
         <div >
             <SidebarSec title={"Dashboard"}>
