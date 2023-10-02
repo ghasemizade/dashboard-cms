@@ -1,5 +1,5 @@
 import Sidebar from "./components/Sidebar";
-import routersPath from "./routes"
+import routersPath from "./Routes"
 import { useRoutes } from "react-router-dom";
 import Header from "./components/Header";
 import clsx from "clsx";
@@ -13,7 +13,7 @@ function App() {
     <>
       <Header />
       <div className={clsx(
-        "flex"
+        "flex items-start"
       )}>
         <Sidebar />
         {mainRouter}
