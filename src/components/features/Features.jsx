@@ -2,18 +2,16 @@ import clsx from "clsx";
 import FeaturesBox from "./FeaturesBox";
 import { BiDownArrowAlt, BiUpArrowAlt } from "react-icons/bi";
 
+
+
 export default function Features(){
 
     return(
         <div className={clsx(
-            "md:flex md:justify-evenly md:flex-row flex flex-col",
+            "flex",
             "w-full",
-            "mt-7 mx-0",
+            "mt-7",
         )}>
-            <div className={clsx(
-                "flex justify-center",
-                "w-full"
-            )}>
                 <FeaturesBox 
                     title={"Revanue"} 
                     price={"2,125"} 
@@ -32,7 +30,6 @@ export default function Features(){
                     indicator={"+3.4"}
                     desc={"comapared to last month"}
                     indicatorIcon={<BiUpArrowAlt color="green"/>}/>
-            </div>
         </div>
     )
 }
