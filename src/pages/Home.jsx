@@ -1,6 +1,7 @@
 import Charts from "../components/charts/Charts";
 import Features from "../components/features/Features";
 import clsx from 'clsx'
+import Transactions from "../components/transactions/Transaction";
 
 export default function Home() {
   return (
@@ -10,7 +11,8 @@ export default function Home() {
           "min-h-screen"
         )}>
           <Features />
-          <Charts />
+          <Charts title={"Monthly Sales"}/>
+          <Transactions />
         </div>
       </>
   )
