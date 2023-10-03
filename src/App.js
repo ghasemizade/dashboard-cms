@@ -13,7 +13,8 @@ function App() {
     <>
       <Header />
       <div className={clsx(
-        "flex items-start"
+        "flex items-start",
+        "text-slate-600"
       )}>
         <Sidebar />
         {mainRouter}
