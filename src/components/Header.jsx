@@ -14,7 +14,7 @@ export default function Header() {
       "font-bold text-[#444]",
       "bg-slate-100",
       "border-b hover:shadow",
-      "static",
+      "fixed z-20"
     )}>
       <div className={clsx(
         "flex items-center",
