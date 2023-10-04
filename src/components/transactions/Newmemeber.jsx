@@ -13,7 +13,8 @@ export default function Newmemeber() {
         "bg-slate-50",
         "shadow",
         "rounded",
-        "p-2"
+        "p-2 mr-3",
+        "w-1/3",
     )}>
         <h3 className={clsx(
             "text-2xl font-semibold"
