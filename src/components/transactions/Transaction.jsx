@@ -6,7 +6,7 @@ import clsx from 'clsx'
 export default function Transactions() {
   return (
     <div className={clsx(
-      "flex",
+      "flex justify-between",
       "mx-8",
     )}>
       <Newmemeber />
