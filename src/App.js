@@ -14,10 +14,14 @@ function App() {
       <Header />
       <div className={clsx(
         "flex items-start",
-        "text-slate-600"
+        "text-slate-600",
       )}>
         <Sidebar />
-        {mainRouter}
+        <div className={clsx(
+          "ml-80 my-20"
+        )}>
+          {mainRouter}
+        </div>
       </div>
     </>
   );
