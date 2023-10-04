@@ -41,16 +41,17 @@ export default function Members({ img, name, pos }) {
             )}>{pos}</p>
         </div>
         <div className={clsx(
-            "mx-5 px-2 py-1",
+            "mx-2 px-2 py-1",
             "flex justify-between items-center",
             "bg-slate-200",
-            "rounded",
+            "rounded-full",
             "cursor-pointer"
         )} onClick={displayHandler}>
             {display}
             <p className={clsx(
-                "mx-2",
-                "text-slate-500"
+                "mx-1",
+                "text-slate-500",
+                "text-xs"
             )}>Display</p>
         </div>
     </div>
