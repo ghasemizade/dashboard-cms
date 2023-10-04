@@ -20,8 +20,11 @@ export default function Sidebar() {
     <div className={clsx(
         "bg-slate-100 invisible md:visible",
         "border-r border-slate-300",
-        "py-5 min-h-screen",
-        "w-1/5"
+        "h-full",
+        "w-80",
+        "fixed z-10 top-0 left-0",
+        "overflow-hidden",
+        "py-14"
     )}>
         <div >
             <SidebarSec title={"Dashboard"}>
@@ -46,8 +49,7 @@ export default function Sidebar() {
             <SidebarItems route={undefined} title={'Manage'} icon={<PiBagSimpleBold />}/>
             <SidebarItems route={undefined} title={'Analytics'} icon={<FaChartLine />}/>
             <SidebarItems route={undefined} title={'Reports'} icon={<MdOutlineReport />} />
-        </SidebarSec>
-        
+        </SidebarSec> 
     </div>
   )
 }
