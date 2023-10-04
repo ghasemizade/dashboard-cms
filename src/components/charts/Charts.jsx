@@ -16,7 +16,7 @@ export default function Charts({title}) {
           <h3 className={clsx(
             "mx-8 my-5",
             "text-slate-500 font-medium"
-          )}>{title}</h3>
+          )}>{title}</h3>8
           <LineChart width={1000} height={350} data={data}
                 margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                 <CartesianGrid strokeDasharray="3 3" />
