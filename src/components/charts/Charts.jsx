@@ -10,7 +10,7 @@ export default function Charts({title}) {
           "bg-slate-50",
           "my-5 mx-8",
           "py-5",
-          "shadow-md hover:shadow-sm",
+          "shadow",
           "rounded"
         )}>
           <h3 className={clsx(
