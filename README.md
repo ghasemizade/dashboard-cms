@@ -1,3 +1,6 @@
+
+![CMS](https://github.com/ghasemizade/dashboard-cms/assets/92257857/e1d8b457-18c1-4cd4-8e56-9a6e1709e5a0)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
