@@ -8,7 +8,7 @@ export default function Home() {
       <>
         <div className={clsx(
           "flex flex-col",
-          "min-h-screen"
+          "min-h-screen",
         )}>
           <Features />
           <Charts title={"Monthly Sales"}/>
