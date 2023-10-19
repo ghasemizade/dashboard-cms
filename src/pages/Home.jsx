@@ -5,15 +5,13 @@ import Transactions from "../components/transactions/Transaction";
 
 export default function Home() {
   return (
-      <>
-        <div className={clsx(
-          "flex flex-col",
-          "min-h-screen",
-        )}>
-          <Features />
-          <Charts title={"Monthly Sales"}/>
-          <Transactions />
-        </div>
-      </>
+      <div className={clsx(
+        "flex flex-col",
+        "min-h-screen",
+      )}>
+        <Features />
+        <Charts title={"Monthly Sales"}/>
+        <Transactions />
+      </div>
   )
 }
